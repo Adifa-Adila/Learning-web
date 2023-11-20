@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Html Layout</title>
+	</head>
+	<style>
+#head{ text-align:center;
+height:150px;
+width:720px;
+border:2px solid lightblue;
+}
+#nav{
+height:35px;
+width:720px;
+border:2px solid blue;
+padding-top:20px;
+}
+.nav{
+border:2px dashed red;
+height:30px;
+width:50px;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px; 
+}
+#as{
+height:300px;
+width:200px;
+text-align:center;
+border: 2px solid lightblue;
+}
+#main{
+border:2px solid lightblue;
+
+}
+#side{
+display:inline-block;
+height:300px;
+width:400px;
+}
+.ar{
+border:2px solid lightblue;
+height:120px;
+width:300px;
+float:right;
+}
+}
+#End{
+border: 2px solid lightblue;
+text-align:center;
+height:30px;
+width:720px;
+
+}
+</style>
+	<body>
+		<header id="head"><h1>Header</h1>
+		<nav id="nav">
+		<a class="nav" href="#">Home</a>
+		<a class="nav" href="#">Address</a>
+		<a class="nav" href="#">Concept</a>
+		<a class="nav" href="#">tutorials</a>
+		<a class="nav" href="#">Video</a>
+		</nav>
+		</header>
+		<div id="main">
+	    <aside id="as">Aside</aside>
+		<section id="side">
+		<article class="ar">Article-1</article>
+		<article class="ar">Article-2</article>
+		<article class="ar">Article-3</article>	
+		</section>
+		</div>
+		
+		<footer id="End">Footer</footer>
+	</body>
+</html>
